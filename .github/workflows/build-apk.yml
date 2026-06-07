@@ -40,4 +40,5 @@ jobs:
         uses: actions/upload-artifact@v3
         with:
           name: AccessibleMediaPlayer-APK
-          path: android/app/build/outputs/apk/release/app-release.apk
+          path: android/app/build/outputs/apk/release/app-release-unsigned.apk
+
